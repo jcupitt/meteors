@@ -1,0 +1,26 @@
+v1.0, 10/5/11 -- Initial release.
+
+v1.1dev, 17/5/11 
+    - forgot some files in the move to git
+    - disable dome controls if no dome is found
+    - try to enable Canon capture
+
+26/9/11
+    - tooltips everywhere
+
+27/9/11
+    - RTI capture seems reliable now
+    - does not autofocus unless asked
+    - full-res 76 frame capture takes 4m 40s
+    - clean up exceptions a bit
+ 
+13/10/11
+    - experiments with manual focus, does not seem to be possible with the
+      Nikon, still investigating, but see email:
+
+      http://sourceforge.net/mailarchive/forum.php?forum_name=gphoto-user&max_rows=25&style=nested&viewmonth=201110&viewday=13
+
+    - added a 'Focus' button to trigger the camera's own autofocus, just a
+      shortcut for the control in the preferences panel
+    - lights hop automatically after 10s of inactivity (was 30s)
+    - don't overwrite on capture
